@@ -1,0 +1,127 @@
+.footer {
+  margin-top: auto;
+  background: #1a1a1e;
+  padding: 50px;
+  &__link {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      li {
+        margin: 20px 0;
+        text-transform: uppercase;
+        a,
+        span {
+          color: #ffffff7a;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24.48px;
+          letter-spacing: 0.3px;
+        }
+        b {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 30px;
+          color: #ffffff;
+        }
+        .input-group {
+          border-bottom: 1px solid #d8d8d81f;
+          input {
+            height: 50px;
+            border: none;
+            outline: none;
+            border-radius: 0;
+            color: #ffffff7a;
+            font-weight: 400;
+            font-size: 14px !important;
+            box-shadow: none !important;
+            line-height: 21px !important;
+            background: transparent !important;
+          }
+          button {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            border: none !important;
+            outline: none !important;
+            box-shadow: none !important;
+            background: transparent !important;
+          }
+        }
+        &:nth-child(1) {
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+  hr {
+    margin-top: 100px;
+    border: 1px solid #ffffff1f;
+  }
+  &__info {
+    margin: 70px 0 43px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      margin: 32px 0 48px 0;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 30.07px;
+      text-align: center;
+      color: #ffffff7a;
+    }
+    .partners {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 80px;
+      img {
+        margin: 0 5px;
+      }
+    }
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #ffffff7a;
+      text-align: center;
+      text-transform: uppercase;
+      a {
+        color: #ffffff7a;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .footer {
+    &__link {
+      ul li {
+        a,
+        span {
+          font-size: 14px;
+          line-height: 21.42px;
+        }
+        b {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+    hr {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+}
